@@ -29,10 +29,9 @@ class School
     @roster.each do |grade, student_name|
     @roster[grade]= student_name.sort!
     end 
+    
  #binding.pry
   #def add_student
    # @student
   #end
  # roster << add_student
-end 
-end 
