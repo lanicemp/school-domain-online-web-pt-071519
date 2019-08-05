@@ -26,6 +26,7 @@ class School
   end
   
   def sort
+ @roster.sort.grade
   #def add_student
    # @student
   #end
