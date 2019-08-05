@@ -18,13 +18,14 @@ class School
       @roster[grade]<< name
     else 
       @roster[grade] = [name]
+      binding.pry
     end
   end 
   
   def grade(grade)
      @roster[grade]
      #This sorts through the roster by the grade and returns the name assosciated with the grade. 
-     binding.pry 
+     #binding.pry 
   end
   
   def sort
