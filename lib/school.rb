@@ -14,7 +14,7 @@ class School
   end 
   
   def add_student(name, grade)
-    if @roster 
+    if @roster.has_key?(grade)
      
       binding.pry 
    # end 
