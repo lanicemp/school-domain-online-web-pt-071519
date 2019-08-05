@@ -23,6 +23,8 @@ class School
   
   def grade(grade)
      @roster[grade]
+     #This sorts through the roster by the grade and returns the name assosciated with the grade. 
+     binding.pry 
   end
   
   def sort
@@ -32,8 +34,5 @@ class School
     end 
   end 
 end 
- #binding.pry
-  #def add_student
-   # @student
-  #end
- # roster << add_student
+
+  
