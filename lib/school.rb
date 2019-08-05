@@ -17,7 +17,7 @@ class School
     
      
       binding.pry 
-    end 
+   # end 
     #roster[grade] = []
     #roster[grade] << name 
   end 
