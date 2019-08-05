@@ -26,7 +26,8 @@ class School
   end
   
   def sort
- @roster.sort.grade
+ @roster.sort
+ binding.pry
   #def add_student
    # @student
   #end
