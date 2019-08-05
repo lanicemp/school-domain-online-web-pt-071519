@@ -26,7 +26,7 @@ class School
   end
   
   def sort
- @roster.sort[name]
+ @roster[name].sort
  #binding.pry
   #def add_student
    # @student
