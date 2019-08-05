@@ -22,9 +22,7 @@ class School
   end 
   
   def grade(grade)
-    if @roster.has_key?(grade)
-      return name 
-    end 
+     @roster[grade]
   end 
   #def add_student
    # @student
