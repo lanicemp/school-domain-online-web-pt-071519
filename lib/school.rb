@@ -28,8 +28,10 @@ class School
   def sort
     @roster.each do |grade, student_name|
     @roster[grade]= student_name.sort!
+    #the bang at the end permanently changes this array. 
     end 
-    
+  end 
+end 
  #binding.pry
   #def add_student
    # @student
