@@ -21,7 +21,7 @@ class School
     end
   end 
   
-  def grade
+  def grade(grade)
     if @roster.has_key?(grade)
       return name 
     end 
