@@ -30,5 +30,5 @@ class School
    # @student
   #end
  # roster << add_student
-  
+end 
 end 
