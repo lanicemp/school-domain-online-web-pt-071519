@@ -24,7 +24,9 @@ class School
   def grade(grade)
      @roster[grade]
      binding.pry 
-  end 
+  end
+  
+  def sort
   #def add_student
    # @student
   #end
