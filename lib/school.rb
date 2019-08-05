@@ -14,7 +14,7 @@ class School
   end 
   
   def add_student(name, grade)
-    
+    if 
      
       binding.pry 
    # end 
