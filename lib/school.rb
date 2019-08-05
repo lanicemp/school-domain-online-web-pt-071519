@@ -17,7 +17,7 @@ class School
     if @roster.has_key?(grade)
       @roster[grade]<< name
     else 
-      @roster[grade] = 
+      @roster[grade] = [name]
      
       binding.pry 
    # end 
